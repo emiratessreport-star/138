@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # رابط خريطة الموقع الرسمية
-Sitemap: https://www.consumerguard-ae.com/sitemap.xml
+Sitemap: https://www.moci-ae.com/sitemap.xml

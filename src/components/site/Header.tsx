@@ -31,18 +31,21 @@ export function Header() {
       <header className="fixed top-4 inset-x-0 z-50 px-4 sm:px-8 max-w-7xl mx-auto">
         <div className="relative flex items-center justify-between h-20 px-6 rounded-2xl bg-background/70 backdrop-blur-2xl border border-white/20 dark:border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.08)] transition-all duration-300">
           
-          {/* 1. شعار المنصة - مباشر بدون خلفية أو حواف */}
+          {/* 1. شعار المنصة واسم المنصة بجانبه مباشرة */}
           <Link 
             to="/" 
             className="flex items-center gap-3 group shrink-0"
           >
             <img 
-              src="/ae.svg" 
+              src="/sanadk.png" 
               alt="شعار منصة حماية المستهلك" 
               className="h-10 sm:h-12 md:h-13 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
               fetchPriority="high"
               decoding="async"
             />
+            <span className="font-extrabold text-base sm:text-lg text-foreground tracking-tight transition-colors group-hover:text-primary">
+              منصة شكاوى المستهلك
+            </span>
           </Link>
 
           {/* 2. روابط التنقل للـ Desktop */}
@@ -111,13 +114,18 @@ export function Header() {
         }`}
       >
         <div className="space-y-6">
-          {/* هيدر القائمة الجانبية */}
+          {/* هيدر القائمة الجانبية مع الاسم */}
           <div className="flex items-center justify-between pb-4 border-b border-border">
-            <img 
-              src="/ae.svg" 
-              alt="شعار منصة حماية المستهلك" 
-              className="h-10 w-auto object-contain" 
-            />
+            <div className="flex items-center gap-2.5">
+              <img 
+                src="/sanadk.png" 
+                alt="شعار منصة حماية المستهلك" 
+                className="h-9 w-auto object-contain" 
+              />
+              <span className="font-bold text-sm text-foreground">
+                منصة شكاوى المستهلك
+              </span>
+            </div>
             <button
               type="button"
               className="p-2 rounded-lg bg-muted text-foreground hover:bg-muted/80 transition-colors"
