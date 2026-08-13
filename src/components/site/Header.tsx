@@ -37,7 +37,7 @@ export function Header() {
             className="flex items-center gap-3 group shrink-0"
           >
             <img 
-              src="/sanadk.png" 
+              src="/ae.svg" 
               alt="شعار منصة حماية المستهلك" 
               className="h-10 sm:h-12 md:h-13 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
               fetchPriority="high"
@@ -114,7 +114,7 @@ export function Header() {
           {/* هيدر القائمة الجانبية */}
           <div className="flex items-center justify-between pb-4 border-b border-border">
             <img 
-              src="/sanadk.png" 
+              src="/ae.svg" 
               alt="شعار منصة حماية المستهلك" 
               className="h-10 w-auto object-contain" 
             />
